@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AIS_InsertarComentarios="http://TOMPHVO/AIS/AIS_InsertarComentarios" xmlns:java="http://www.ibm.com/xmlns/prod/websphere/scdl/java/6.0.0" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="AIS_InsertarComentarios_JavaImplementation" name="AIS_InsertarComentarios_JavaImplementation">
+  <description>[Enter a description for this component.]</description>
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" portType="AIS_InsertarComentarios:AIS_InsertarComentarios"/>
+  </interfaces>
+  <implementation xsi:type="java:JavaImplementation" class="tomphvo.ais.ais_insertarcomentarios.AIS_InsertarComentarios_JavaImplementationImpl"/>
+</scdl:component>

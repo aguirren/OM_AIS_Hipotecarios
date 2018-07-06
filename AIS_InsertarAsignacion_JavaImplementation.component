@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AIS_InsertarAsignacion="http://TOMPHVO/AIS/AIS_InsertarAsignacion" xmlns:java="http://www.ibm.com/xmlns/prod/websphere/scdl/java/6.0.0" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="AIS_InsertarAsignacion_JavaImplementation" name="AIS_InsertarAsignacion_JavaImplementation">
+  <description>[Enter a description for this component.]</description>
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" portType="AIS_InsertarAsignacion:AIS_InsertarAsignacion"/>
+  </interfaces>
+  <implementation xsi:type="java:JavaImplementation" class="tomphvo.ais.ais_insertarasignacion.AIS_InsertarAsignacion_JavaImplementationImpl"/>
+</scdl:component>

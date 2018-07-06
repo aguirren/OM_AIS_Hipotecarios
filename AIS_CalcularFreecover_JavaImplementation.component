@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AIS_CalcularFreecover="http://TOMPHVO/AIS/AIS_CalcularFreecover" xmlns:java="http://www.ibm.com/xmlns/prod/websphere/scdl/java/6.0.0" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="AIS_CalcularFreecover_JavaImplementation" name="AIS_CalcularFreecover_JavaImplementation">
+  <description>[Enter a description for this component.]</description>
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" portType="AIS_CalcularFreecover:AIS_CalcularFreecover"/>
+  </interfaces>
+  <implementation xsi:type="java:JavaImplementation" class="tomphvo.ais.ais_calcularfreecover.AIS_CalcularFreecover_JavaImplementationImpl"/>
+</scdl:component>
